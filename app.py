@@ -15,7 +15,7 @@ bmi = st.number_input("Patient BMI", min_value=10.0, max_value=60.0, value=25.0,
 # 2. Add a Prediction Button
 if st.button("Run Diagnostic Analysis"):
     # The URL of your LOCAL FastAPI server
-    api_url = "http://127.0.0.1:8000/predict"
+    api_url = "https://hospitalpatientprojectpredictionver-amber.vercel.app//predict"
     
     # Prepare the data to send
     payload = {
@@ -39,4 +39,5 @@ if st.button("Run Diagnostic Analysis"):
             st.error(f"API Error: Received status code {response.status_code}")
             
     except Exception as e:
+
         st.error(f"Could not connect to the Backend. Is Uvicorn running? Error: {e}")
