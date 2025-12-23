@@ -47,4 +47,4 @@ requirements.txt: Unified dependency list for both cloud platforms.
 data.json: Local storage for patient records (demonstrating CRUD functionality).
 
 🙏 Acknowledgments
-Special thanks to my instructors at Sherians Coding School, [Name 1] and [Name 2], for the training and support in building production-ready AI applications.
+Special thanks to my instructors at Sherians Coding School, Tanishq Vyas and Akarsh Vyas, for the training and support in building production-ready AI applications.
